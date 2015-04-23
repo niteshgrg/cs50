@@ -1,0 +1,11 @@
+0.  It is the longest word in english language.
+1.  It gets imformation about resource utilisation.
+2.  
+3.  As they contain many variables so its better to pass the location of sirst variable so it can access all other variables.
+4.  in main for loop when we intialise i by fgetc(fp) it reads a char from file and then in incrementing condition we have        incremented i by saying i=fgetc(fp) which read now the next char from file and this process continues untill we encounter end of  file.
+5.  we have not used fscanf as we would be needing to calculate lenght of each word before reading it in fscanf()
+6.  so the the word doesn't change from the operations performed on it to load it to memory or compere with previously stored words
+7.  Trie, so each structure contains a bool is_word which is set to tru if word ending at that level exists and 27 pointer array of type same struct which are all children of first node and so on.
+8.  0.13
+9.  nothing
+10. yeah i think i can improve load as dictionary will always be sorted i haven't quite used that.

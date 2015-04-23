@@ -1,0 +1,48 @@
+0.  gif - 256
+    jpg - 16.7 million
+    png - 42.9 million
+    bmp - 16
+
+1.  GIF
+
+2.  lossy compression is done when complete exact restoration is not required so compression rate could be achieved high and image can be of small size while lossless compression is done
+    when we need exact restoration of data as it was before compressed upon uncompressing so compresion ratio is lower.
+
+3.  JPEG
+
+4.  The system overwrites the file first character to signal that file has been deleted and and moves the memory custers t file to free memory list maintained in OS so that it can be
+    overwritten.
+
+5.  Overwrite with garbage data.
+
+6.  It's a header file for library which contains fixed length integers those lengths remain fixed under different OS environment.
+
+7.  These are used to define fixed size(no. of bits) int's used to specify a particular field like in file header size is represented in 32 bits(4 bytes) and as size cannot be negative
+    Hence, unit_32 is used.
+
+8.  BYTE - 1 byte
+    DWORD - 4 byte
+    LONG - 4 byte
+    WORD - 2 byte
+
+9.  ASCII - BM
+    Hexadecimal - 42
+    Decimal - 01000010
+
+10. bfSize tells us the size of entire bmp file while bisize tells us size of infoheader from where it started(bisize is fixed to be 40 bytes). 
+
+11. biHeight negative means that image is top-down image with start at upper left corner and headers at top.
+
+12. biBitCount
+
+13. If there is no memory left to create a new file then fopen couldreturn NULL.
+
+14. Third argument of fread is always 1 as we never want to exceed the length of struct.
+
+15. 3
+
+16. fseek() sets the file position of stream to the offset mentioned.
+
+17. SEEK_CUR is a constant which represent current position of file stream.
+
+18. rob bawdon
